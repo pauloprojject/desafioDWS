@@ -43,7 +43,7 @@ ul{
     height: 600px;
     margin-top: 50px;
     margin-bottom: 200px;
-    background-image: url(/img/banner.jpg);
+    background-image: url(../img/banner.jpg);
     background-position: center;
     background-size: cover;
     background-blend-mode: color;
