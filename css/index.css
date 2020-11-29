@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+}
+
+nav{
+    width: 100vw;
+}
+
+.topo{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.topo ul{
+    width: 20vw;
+    justify-content: space-between;
+}
+
+.topo li:nth-child(2){
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+}
+
+.topo button{
+    border: 0;
+    border-radius: 5px;
+    background-color: yellow;
+    padding: 15px 45px;
+    color: whitesmoke;
+}
+
+.banner{
+    width: 100vw;
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    background-image: url(/img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: rgba(128, 128, 128, 0.5);
+    margin-left: -100px;
+    border-radius: 35px;
+    position: relative;
+}
+
+.paragrafo{
+    padding: 40px 40px 40px 150px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    right: 1300px;
+    top: 150px;
+}
+
+.paragrafo h1{
+    color: whitesmoke;
+}
+
+.paragrafo p{
+    width: 370px;
+    color: whitesmoke;
+}
+
+.banner li div{
+    display: flex;
+    align-items: center;
+}
+
+.banner li{
+    width: 270px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: rgb(200, 200, 200);
+    margin-left: 20px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.banner ul{
+    position: absolute;
+    right: 500px;
+    bottom: -175px;
+}
+
+.numerosTexto{
+    align-self: flex-start;
+    margin-left: 350px;
+}
+
+.numeros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.numerosTable{
+    width: 250px;
+    height: 150px;
+    background-color: #1f2f3f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numerosIcon{
+    display: flex;
+}
+
+.numerosTable h3{
+    font-weight: normal;
+}
+
+.numerosTable h3{
+    color: whitesmoke;
+}
+
+.numerosIcon h3{
+    font-weight: bold;
+}
+
+#three{
+    border-radius: 0 0 0 15px;
+}
+
+#four{
+    border-radius: 0 0 15px 0;
+}
+
+#two{
+    border-radius: 0 15px 0 0;
+}
+
+#one{
+    border-radius: 15px 0 0 0;
+}
